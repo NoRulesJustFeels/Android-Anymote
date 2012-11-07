@@ -8,10 +8,10 @@ The Anymote-for-Java library was designed to be independent of a user interface.
 The user interface supports some of the <a href="https://code.google.com/p/anymote-protocol/source/browse/proto/keycodes.proto">key codes</a> provided by the <a href="https://developers.google.com/tv/remote/docs/anymote">Anymote protocol</a> for Google TV devices.
 The Android-Anymote user interface shows how to invoke key codes for Home, Live TV, Back, Up, Left, Right, Down and OK.
 It also has a touch panel to navigate apps like Chrome. Zoom and scrolling gestures are also supported. 
-The menu option allows the user to switch between different devices.</p>.
+The menu option allows the user to switch between different devices.</p>
 
 <p>Note: The Android-Anymote project includes the jar file for the <a href="https://github.com/entertailion/Anymote-for-Java">Anymote-for-Java</a> library in its lib directory. 
-Developers should check out that project and generate a jar file for the latest version of the code.</p>.
+Developers should check out that project and generate a jar file for the latest version of the code.</p>
 
 <p>References:
 <ul>
