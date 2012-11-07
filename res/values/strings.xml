@@ -1,8 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Google Inc.  All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources>
 
-    <string name="app_name">Android-Anymote</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+  <string name="app_name">Google TV Anymote Library</string>
+  <string name="unkown_tgt_name">Unknown</string>
+  <string name="unkown_tgt_addr">unknown address</string>
 
+  <!-- Manifest labels -->
+  <string name="finder_label">Connect to Google TV</string>
+
+  <!--  Device Finder - more devices -->
+  <string name="finder_connect">Connect</string>
+  <string name="finder_cancel">Cancel</string>
+  <string name="finder_manual">Add manually</string>
+  <string name="finder_configure">Configure</string>
+  <string name="finder_wifi_not_available">WiFi network not available</string>
+
+  <!-- Manual IP dialog strings -->
+  <string name="manual_ip_label">Add Google TV</string>
+  <string name="manual_ip_hint">xxx.xxx.xxx.xxx</string>
+  <string name="manual_ip_message">You can find IP address of your Google TV device by going to:\nSettings &gt; Network &gt; Network Information</string>
+  <string name="manual_ip_default_box_name">Unknown box</string>
+  <string name="manual_ip_connect">Connect</string>
+  <string name="manual_ip_cancel">Cancel</string>
+
+  
+  <!-- Pairing -->
+  <string name="pairing_label">Pairing required</string>
+  <string name="pairing_hint">Enter PIN</string>
+  <string name="pairing_ok">Pair</string>
+  <string name="pairing_cancel">Cancel</string>
+
+  <!-- menu -->
+  <string name="menu_switch">Switch Google TV</string>
+  
+  <!-- buttons -->
+  <string name="button_home">Home</string>
+  <string name="button_back">Back</string>
+  <string name="button_up">Up</string>
+  <string name="button_down">Down</string>
+  <string name="button_left">Left</string>
+  <string name="button_right">Right</string>
+  <string name="button_ok">OK</string>
+  <string name="button_tv">TV</string>
+  
+  <!-- progress -->
+  <string name="progress_title">Google TV Devices</string>
+  <string name="progress_finding_message">Finding devices&#8230;</string>
+  <string name="progress_connecting_message">Connecting to device&#8230;</string>
 </resources>

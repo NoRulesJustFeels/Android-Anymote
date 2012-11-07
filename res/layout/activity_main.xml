@@ -1,15 +1,191 @@
+<!--
+     Copyright (C) 2012 ENTERTAILION LLC.  All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:padding="@dimen/padding_medium"
-        android:text="@string/hello_world"
-        tools:context=".MainActivity" />
+    <TableLayout
+        android:id="@+id/panel1_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="2dip"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_weight="1"
+            android:padding="2dip" >
+
+            <Button
+                android:id="@+id/cell1"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_home"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_tv"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell3"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_back"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:padding="2dip" >
+
+            <Button
+                android:id="@+id/cell4"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:textSize="15sp" 
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/cell5"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_up"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell6"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:textSize="15sp" 
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:padding="2dip" >
+
+            <Button
+                android:id="@+id/cell7"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_left"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell8"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_ok"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell9"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_right"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:padding="2dip" >
+
+            <Button
+                android:id="@+id/cell10"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:textSize="15sp" 
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/cell11"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:text="@string/button_down"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cell12"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:padding="2sp"
+                android:textSize="15sp" 
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="10"
+            android:padding="2dip" >
+
+            <ImageView
+                android:id="@+id/touch_pad"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#000000" 
+                android:layout_span="3"
+                android:src="@drawable/touchpad"/>
+        </TableRow>
+    </TableLayout>
 
 </RelativeLayout>
