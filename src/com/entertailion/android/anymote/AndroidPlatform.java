@@ -162,7 +162,7 @@ public class AndroidPlatform implements Platform {
 			case CERTIFICATE_NAME: 
 				return Build.PRODUCT + "/" + Build.DEVICE + "/" + Build.MODEL;
 			case UNIQUE_ID: 
-				return getUniqueId();
+				return getUniqueId()+"android";  // needs to be unique per app so that multiple Anymote clients can run on the same device
 			case NETWORK_NAME: 
 				return getNetworkName();
 			default:

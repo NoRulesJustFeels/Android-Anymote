@@ -11,7 +11,7 @@ It also has a touch panel to navigate apps like Chrome. Zoom and scrolling gestu
 The menu option allows the user to switch between different devices.</p>
 
 <p>Note: The Android-Anymote project includes the jar file for the <a href="https://github.com/entertailion/Anymote-for-Java">Anymote-for-Java</a> library in its lib directory. 
-Developers should check out that project and generate a jar file for the latest version of the code. 
+Developers should check out that project and export a jar file for the latest version of the code. 
 When you export the Anymote-for-Java project as a jar file, do not include its lib directory since this project already includes those jar files.</p>
 
 <p>References:
